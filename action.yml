@@ -18,11 +18,11 @@ inputs:
   USER_NAME:
     description: 'Name in GitHub Account'
     required: true
-    default: ''
+    default: 'detroit313x'
   USER_EMAIL:
     description: 'E-mail in GitHub Account'
     required: true
-    default: ''
+    default: '37162313+detroit313x@users.noreply.github.com'
   KERNEL_TREE:
     description: 'Kernel Tree On Your Device'
     required: false
@@ -34,11 +34,11 @@ inputs:
   KERNEL_PATH:
     description: 'Path On Your Kernel Directory'
     required: false
-    default: 'kernel/vivo/1938'
+    default: ''
   DEVICE_TREE:
     description: 'OrangeFox Device Tree'
     required: true
-    default: 'https://github.com/UntuKemeng/ORF_device_vivo_1938'
+    default: 'git@github.com:detroit313x/device_tree_boston.git'
   DEVICE_TREE_BRANCH:
     description: 'OrangeFox Device Tree Branch'
     required: true
@@ -46,15 +46,15 @@ inputs:
   DEVICE_PATH:
     description: 'Specify Your Device Path'
     required: true
-    default: 'device/vivo/1938'
+    default: 'device/motorola/boston'
   DEVICE_NAME:
     description: 'Specify Your Device Codename'
     required: true
-    default: '1938'
+    default: 'boston'
   BUILD_TARGET:
     description: 'Specify Your Build Target [boot, recovery, vendorboot'
     required: true
-    default: 'recovery'
+    default: 'vendorboot'
   COMMON_TREE:
     description: 'Common Tree On Your Device'
     required: false
@@ -66,7 +66,7 @@ inputs:
   COMMON_PATH:
     description: 'Path On Your Common Directory'
     required: false
-    default: 'common/vivo/1938'
+    default: ''
   MAINTAINER_URL:
     description: 'Image size must be 192x192'
     required: true
