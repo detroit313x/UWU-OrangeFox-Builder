@@ -17,13 +17,13 @@ jobs:
     - name: OrangeFox Build
       uses: ./
       with:
-        USER_NAME: 'UntuKemeng'
-        USER_EMAIL: 'jarbull87@gmail.com'
-        DEVICE_TREE: 'https://github.com/UntuKemeng/ORF_device_vivo_1938'
+        USER_NAME: 'detroit313x'
+        USER_EMAIL: '37162313+detroit313x@users.noreply.github.com'
+        DEVICE_TREE: 'git@github.com:detroit313x/device_tree_boston.git'
         DEVICE_TREE_BRANCH: '12.1'
-        DEVICE_PATH: 'device/vivo/1938'
-        DEVICE_NAME: '1938'
-        BUILD_TARGET: 'recovery'
+        DEVICE_PATH: 'device/motorola/boston'
+        DEVICE_NAME: 'boston'
+        BUILD_TARGET: 'vendorboot'
         TG_CHAT_ID: '${{ secrets.TG_CHAT_ID }}'
         TG_TOKEN: '${{ secrets.TG_TOKEN }}'
         MAINTAINER_URL: 'https://i.ibb.co.com/8gyjXq06/maintainer.png'
